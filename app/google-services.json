@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "636132775718",
+    "project_id": "databasepizzashop",
+    "storage_bucket": "databasepizzashop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636132775718:android:895f8adc76bf67e748d3e7",
+        "android_client_info": {
+          "package_name": "com.google.pizzashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636132775718-6uu8a59dbki2no6afcr45ic77ugido3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.pizzashop",
+            "certificate_hash": "07761e0f6813b5b287ac04b8191d488737ad634f"
+          }
+        },
+        {
+          "client_id": "636132775718-hjtc4orarkundhb6c4effscpkk1q5dbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATThLmNoqEyMg69P-0JUs4RQA1uMOz4Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636132775718-hjtc4orarkundhb6c4effscpkk1q5dbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

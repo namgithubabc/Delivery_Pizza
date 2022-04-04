@@ -1,4 +1,4 @@
-package com.google.pizzashop.AminActivity;
+package com.google.pizzashop.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.google.pizzashop.R;
 
-public class HomeAdminActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_admin);
+        setContentView(R.layout.activity_home);
     }
 }

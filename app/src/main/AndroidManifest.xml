@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaShop">
         <activity
-            android:name=".SplashScreen.TestOnScreenBroadingActivity"
+            android:name=".Activities.HomeActivity"
             android:exported="true" />
         <activity
-            android:name=".Model.TestModel"
+            android:name=".SplashScreen.TestOnScreenBroadingActivity"
             android:exported="true" />
         <activity
             android:name=".Login.Sign_up"
@@ -22,8 +22,9 @@
             android:name=".Login.Sign_in"
             android:exported="true" />
         <activity
-            android:name=".AminActivity.HomeAdminActivity"
-            android:exported="true" />
+            android:name=".AminActivity.CategoryAdminActivity"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".Activities.MainActivity"
             android:exported="true">
