@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">PizzaShop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_home">Home</string>
+    <string name="category_admin">Category</string>
+    <string name="product_admin">Product</string>
+    <string name="order_admin">Order</string>
+    <string name="sale_admin">Sale</string>
+    <string name="user_admin">User</string>
+    <string name="thong_ke_admin">Thống kê</string>
+    <string name="account">Practice</string>
+    <string name="my_profile">Individual exercises</string>
+    <string name="change_pass">Practice with Peter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">CLose navigation drawe</string>
+
+    <string name="tabRate">Rate</string>
+    <string name="tabFavorite">Favorite</string>
+    <string name="tab_my_page">My Page</string>
+
 </resources>

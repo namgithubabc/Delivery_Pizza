@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home" />
+        <item android:id="@+id/nav_favorite"
+            android:title="@string/category_admin"/>
+        <item android:id="@+id/nav_history"
+            android:title="@string/product_admin"/>
+        <item android:id="@+id/nav_order"
+            android:title="@string/order_admin"/>
+        <item android:id="@+id/nav_sale"
+            android:title="@string/sale_admin"/>
+        <item android:id="@+id/nav_user"
+        android:title="@string/user_admin"/>
+        <item android:id="@+id/nav_thong_ke"
+            android:title="@string/thong_ke_admin"/>
+    </group>
+    <item android:title="@string/account">
+        <menu>
+            <item android:id="@+id/nav_account"
+                android:title="@string/my_profile"/>
+            <item android:id="@+id/nav_change_pass"
+                android:title="@string/change_pass"/>
+        </menu>
+    </item>
+</menu>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaShop">
         <activity
+            android:name=".AminActivity.AddCategory"
+            android:exported="true" />
+        <activity
             android:name=".Activities.HomeActivity"
             android:exported="true" />
         <activity
@@ -24,16 +27,15 @@
         <activity
             android:name=".AminActivity.CategoryAdminActivity"
             android:exported="true">
-        </activity>
-        <activity
-            android:name=".Activities.MainActivity"
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
