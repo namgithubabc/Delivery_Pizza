@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaShop">
         <activity
+            android:name=".Login.NghiemTest"
+            android:exported="true" />
+        <activity
             android:name=".AminActivity.AddCategory"
             android:exported="true" />
         <activity
@@ -35,7 +38,7 @@
         </activity>
         <activity
             android:name=".Activities.MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
