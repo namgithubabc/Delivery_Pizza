@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tabRate"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tabRate"/>
+    <item android:id="@+id/tabFavorite"
+        android:icon="@drawable/ic_order_cart"
+        android:title="@string/tabFavorite"/>
+    <item android:id="@+id/tabMyPage"
+        android:icon="@drawable/ic_search"
+        android:title="@string/tab_my_page"/>
+    <item android:id="@+id/tab_my_profile"
+        android:icon="@drawable/ic_user"
+        android:title="@string/tab_my_profile"/>
+</menu>

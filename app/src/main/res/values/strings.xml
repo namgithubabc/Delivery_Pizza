@@ -17,8 +17,11 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">CLose navigation drawe</string>
 
-    <string name="tabRate">Rate</string>
-    <string name="tabFavorite">Favorite</string>
-    <string name="tab_my_page">My Page</string>
+    <string name="tabRate">Home</string>
+    <string name="tabFavorite">Cart</string>
+    <string name="tab_my_page">Search</string>
+    <string name="tab_my_profile">Profile</string>
+    <string name="text_content">3517 W.Gay St.Utica, Pennsylavina 57...</string>
+    <string name="white_place">Deliver to</string>
 
 </resources>

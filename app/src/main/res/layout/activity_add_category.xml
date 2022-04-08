@@ -36,6 +36,19 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
+            android:id="@+id/editIdNameCategory"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle_option_admin"
+            android:backgroundTint="#F3F3FA"
+            android:hint="Category Code "
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/editTextNameCategory"
             android:layout_marginRight="10dp"
             android:background="@drawable/circle_option_admin"
             android:backgroundTint="#F3F3FA"
@@ -46,10 +59,11 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
+            android:id="@+id/editTextDescriptionCategory"
             android:layout_marginRight="10dp"
             android:background="@drawable/circle_option_admin"
             android:backgroundTint="#F3F3FA"
-            android:hint="Descriptional (optional)"
+            android:hint="Description (optional)"
             android:layout_marginTop="20dp"
             android:paddingLeft="10dp" />
 
