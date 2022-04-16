@@ -23,5 +23,8 @@
     <string name="tab_my_profile">Profile</string>
     <string name="text_content">3517 W.Gay St.Utica, Pennsylavina 57...</string>
     <string name="white_place">Deliver to</string>
+    <string name="back_update_category_restaurant"><![CDATA[Back home category  ->>]]></string>
+    <string name="back_update_category"><![CDATA[Back home category  ->>]]></string>
+    <string name="str_notification">Are you trying to edit the shop\'s catalog ?</string>
 
 </resources>

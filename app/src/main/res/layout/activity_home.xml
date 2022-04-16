@@ -14,12 +14,14 @@
         android:layout_height="match_parent"/>
 
 
+
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/purple_500"
+        android:background="@color/white"
         app:itemIconTint="@color/custom_color_home"
         app:itemTextColor="@color/custom_color_home"
         app:menu="@menu/menu_home" />

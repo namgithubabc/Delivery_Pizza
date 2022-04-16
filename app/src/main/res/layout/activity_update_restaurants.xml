@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@drawable/sp2"
-    tools:context=".AminActivity.Add.AddRestaurants">
+    android:background="@drawable/sp3"
+    tools:context=".AminActivity.Update.UpdateRestaurants">
 
     <LinearLayout
         android:id="@+id/content_add_category"
@@ -21,11 +21,11 @@
 
 
         <TextView
-            android:id="@+id/title_add_category"
+            android:id="@+id/title_update_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
-            android:text="Add Restaurants"
+            android:text="Update Restaurants"
             android:textColor="@color/yellow"
             android:textSize="35dp"
             android:textStyle="bold" />
@@ -48,7 +48,7 @@
             app:cardCornerRadius="20dp">
 
             <ImageView
-                android:id="@+id/img_choose_restaurant"
+                android:id="@+id/img_choose_update_restaurant"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/sp1"
@@ -58,7 +58,7 @@
 
 
         <EditText
-            android:id="@+id/editIdRestaurants"
+            android:id="@+id/editIdUpdateRestaurants"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
@@ -70,7 +70,7 @@
             android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/editTitleNameRestaurant"
+            android:id="@+id/editTitleNameUpdateRestaurant"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
@@ -81,7 +81,7 @@
             android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/editDistanceRestaurant"
+            android:id="@+id/editDistanceUpdateRestaurant"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
@@ -93,7 +93,7 @@
             android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/editTimeRestaurant"
+            android:id="@+id/editTimeUpdateRestaurant"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
@@ -105,7 +105,7 @@
             android:paddingLeft="10dp" />
 
         <EditText
-            android:id="@+id/editSale"
+            android:id="@+id/editUpdateSale"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
@@ -118,7 +118,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_add_restaurants"
+            android:id="@+id/btn_update_restaurants"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="32dp"
@@ -136,6 +136,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:gravity="right"
+            android:id="@+id/back_home"
             android:orientation="horizontal">
 
             <TextView
@@ -151,4 +152,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.google.pizzashop.AminActivity;
+package com.google.pizzashop.AminActivity.Home;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;

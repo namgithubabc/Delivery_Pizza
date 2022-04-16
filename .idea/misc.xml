@@ -3,23 +3,51 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/border_resource.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/circle_around_admin.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/circle_option_admin.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/circle_retaurants.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/cirle_image.xml" value="0.2703125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/cirle_image_restaurant.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/cirle_info_restaurant.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/cirle_input.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/cirle_sale.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_category.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_order.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_product.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_sale.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_search.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_statistical.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/ic_user.xml" value="0.3828125" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/drawable/solid_item.xml" value="0.3828125" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_add_category.xml" value="0.35260416666666666" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_add_restaurants.xml" value="0.4" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_category_restaurant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_delete_category.xml" value="0.264" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_dir_go_cate.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_home_admin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_list_data_dmactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_option_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_thong_ke.xml" value="0.25416666666666665" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_update_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/activity_update_restaurants.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/dialog_option_category_and_restaurants.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_cart_bottom.xml" value="0.35260416666666666" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_home_bottom.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_order.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_profile_bottom.xml" value="0.35260416666666666" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_sale.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_search_botom.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_thong_ke.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/fragment_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/item_list_set_option_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/item_restaurants.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/layout_header_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/layout/row_item_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/menu/menu_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Graduation_ thesis/Delivery_Pizza/app/src/main/res/menu/menu_navigation.xml" value="0.36666666666666664" />
       </map>

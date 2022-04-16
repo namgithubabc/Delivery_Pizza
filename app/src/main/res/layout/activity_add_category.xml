@@ -6,15 +6,15 @@
     android:background="@drawable/sp2"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".AminActivity.AddCategory">
+    tools:context=".AminActivity.Add.AddCategory">
 
 
     <LinearLayout
         android:id="@+id/content_add_category"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
         android:background="@drawable/circle_around_admin"
         android:backgroundTint="@color/green"
         android:gravity="center"
@@ -33,22 +33,22 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/editIdNameCategory"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
-            android:id="@+id/editIdNameCategory"
-            android:layout_marginBottom="20dp"
             android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/circle_option_admin"
             android:backgroundTint="#F3F3FA"
             android:hint="Category Code "
             android:paddingLeft="10dp" />
 
         <EditText
+            android:id="@+id/editTextNameCategory"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
-            android:id="@+id/editTextNameCategory"
             android:layout_marginRight="10dp"
             android:background="@drawable/circle_option_admin"
             android:backgroundTint="#F3F3FA"
@@ -56,15 +56,15 @@
             android:paddingLeft="10dp" />
 
         <EditText
+            android:id="@+id/editTextDescriptionCategory"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="10dp"
-            android:id="@+id/editTextDescriptionCategory"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/circle_option_admin"
             android:backgroundTint="#F3F3FA"
             android:hint="Description (optional)"
-            android:layout_marginTop="20dp"
             android:paddingLeft="10dp" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -94,22 +94,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="3dp"
-                android:text="Update Category"
+                android:text="@string/back_update_category_restaurant"
                 android:textColor="@color/white"
                 android:textSize="14dp"
                 android:textStyle="bold" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/ic_edit_update"
-                android:backgroundTint="@color/white" />
-
-
         </LinearLayout>
     </LinearLayout>
 

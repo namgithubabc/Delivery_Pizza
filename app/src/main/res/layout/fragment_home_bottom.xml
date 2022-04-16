@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp"
+    android:background="#F3F3FA"
     tools:context=".Fragment.tabHome.HomeFragmentBottom">
 
     <LinearLayout
@@ -32,6 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
+                    android:fontFamily="sans-serif-light"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:text="@string/white_place"/>
@@ -42,18 +44,23 @@
                     android:text="@string/text_content"/>
             </LinearLayout>
         </LinearLayout>
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+
+
+        <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/search"
+            android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_below="@+id/place_line"
-            android:textColorHint="#A5A1A1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="21dp"
+            android:hint="Khám phá..."
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
             android:background="@drawable/cirle_input"
-            android:backgroundTint="@color/lightgrey"
-            android:gravity="center"
-            android:hint="Search" />
+            android:backgroundTint="#FCFCFC"
+            app:startIconDrawable="@drawable/ic_search"
+            app:endIconTint="@color/color_hint"
+            app:endIconMode="clear_text"
+            android:visibility="visible"
+            app:startIconTint="@color/color_hint"/>
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rcv_category"
@@ -77,17 +84,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
                 android:text="Restaurants"
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="26dp"/>
+                android:textSize="26dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="See more"
-                android:textColor="#F9DEB4"
-                android:textStyle="bold"
+                android:textColor="#F3AE46"
                 android:textSize="16dp"
                 android:gravity="right"/>
 
